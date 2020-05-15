@@ -69,3 +69,5 @@ class Item():
         """Represent the item in string format."""
         return f"<{self.name}, value: {self.val}, weight: {self.weight}>"
 
+
+items = [Item('Spoon', 10, 10), Item('Table', 30, 100)]
