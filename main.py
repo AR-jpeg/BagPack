@@ -1,4 +1,4 @@
-"""Tis the nabsack problem.
+"""The nabsack problem.
 
 #Idea 1
 We'll add all items to our sack.
@@ -26,11 +26,10 @@ wrintln "the best is best(items)"
 // Other thing
 
 current_items = item('Spoon', value=10, weight=3), item('TV', value=1000, weight=3500) & max_weight = 4000
-
-
-
 """
 
+from generate_word import words
+from solution import *
 
 class Item():
     """Base class for all our items."""
