@@ -4,8 +4,12 @@
 def solve_with_items(current_items, max_weight, items_to_choose_from):
     pass
 
-def least_valued_and_most_heavy_item(items):
-    pass
+def find_least_valued_and_most_heavy_item(items):
+    least = items[0]
+    for item in items:
+        if item.val < least.val and item.weight > item.weight:
+            least = item
+    return least
 
 
 def solve_from_empty(items, max_weight):
