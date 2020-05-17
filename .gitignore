@@ -1,3 +1,5 @@
+pyproject.lock
 settings.json
+poetry.lock
 .vscode
 *.pyc

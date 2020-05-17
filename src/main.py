@@ -30,7 +30,7 @@ current_items = item('Spoon', value=10, weight=3), item('TV', value=1000, weight
 
 from solution import solve_from_empty, solve_with_items
 from generate_word import words
-from items import Item
+from item import Item
 
 
 items = [Item('Spoon', 10, 10), Item('Table', 30, 100)]
