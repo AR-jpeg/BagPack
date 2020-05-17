@@ -29,6 +29,8 @@ def solve_from_empty(items, max_weight):
         total_weight += item.weight
         total_value += item.val
     
+    print(total_value)
+
     if total_weight <= max_weight:
         return items
     
