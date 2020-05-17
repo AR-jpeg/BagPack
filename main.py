@@ -28,8 +28,8 @@ wrintln "the best is best(items)"
 current_items = item('Spoon', value=10, weight=3), item('TV', value=1000, weight=3500) & max_weight = 4000
 """
 
+from solution import solve_from_empty, solve_with_items
 from generate_word import words
-from solution import *
 
 class Item():
     """Base class for all our items."""
