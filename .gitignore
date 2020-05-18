@@ -1,3 +1,4 @@
+src/__pycache__/
 pyproject.lock
 settings.json
 poetry.lock
