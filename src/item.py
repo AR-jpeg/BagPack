@@ -34,3 +34,7 @@ class Item():
     def __str__(self):
         """Represent the item in string format."""
         return f"<{self.name}, value: {self.val}, weight: {self.weight}>"
+    
+    @property
+    def score(self):
+        return self.val / self.weight

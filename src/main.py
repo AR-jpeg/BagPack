@@ -28,11 +28,16 @@ wrintln "the best is best(items)"
 current_items = item('Spoon', value=10, weight=3), item('TV', value=1000, weight=3500) & max_weight = 4000
 """
 
-from solution import solve_from_empty, solve_with_items
+from solution import solve_from_empty #, solve_with_items
 from generate_word import words
 from item import Item
 
 
-items = [Item('Spoon', 10, 10), Item('Table', 30, 100)]
+items = [Item('Spoon', val=100, weight=10), Item('Table', 99, 100)]
 
-print(solve_from_empty(items, 90))
+best_items_from_empty = solve_from_empty(items, 100)
+
+print("'Best' items from empty:", end=' ')
+for item in best_items_from_empty:
+    print(item, end=', ')
+print()
